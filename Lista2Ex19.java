@@ -1,15 +1,23 @@
 import javax.swing.JOptionPane;
 import javax.swing.ImageIcon;
 
-public class Lista2Ex16{
+public class Lista2Ex19{
 
     public static void main(String[]args){
 
-        double temperatura = Double.parseDouble(JOptionPane.showInputDialog(null, 
-        "Digite a temperatura em graus:",
-        "CONVERSÃO DE TEMPERATURA",
+        double saldoinicial = Double.parseDouble(JOptionPane.showInputDialog(null, 
+        "Digite seu saldo no primeiro dia do mês:",
+        "SALDO BANCÁRIO",
         JOptionPane.QUESTION_MESSAGE,
-        new ImageIcon(Lista2Ex16.class.getResource("thermometer.png")), null, null).toString());
+        new ImageIcon(Lista2Ex19.class.getResource("money.png")), null, null).toString());
+
+        double saldoinicial = Double.parseDouble(JOptionPane.showInputDialog(null, 
+        "Digite seu saldo no primeiro dia do mês:",
+        "SALDO BANCÁRIO",
+        JOptionPane.QUESTION_MESSAGE,
+        new ImageIcon(Lista2Ex19.class.getResource("money.png")), null, null).toString());
+
+
 
         String escala = JOptionPane.showInputDialog (null,
         "Selecione a escala de origem:",
